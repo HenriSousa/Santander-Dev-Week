@@ -16,7 +16,6 @@ classDiagram
     }
 
     class Account {
-        -long id
         -String number
         -String agency
         -float balance
