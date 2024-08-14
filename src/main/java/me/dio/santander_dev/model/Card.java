@@ -13,6 +13,6 @@ public class Card {
     private Long id;
     @Column(unique = true)
     private String number;
-    @Column(name="Card_limit", precision = 2, scale = 13)
+    @Column(name="Card_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 }
